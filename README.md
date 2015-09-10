@@ -10,47 +10,49 @@
 - [Lenville](https://github.com/lenville)
 - [CloudiDust](https://github.com/CloudiDust)
 
+## Introduction
 ## Introduction 简介
-ECMAScript 6, also known as ECMAScript 2015, is the upcoming version of the ECMAScript standard. This standard is targeting ratification in June 2015. ES6 is a significant update to the language, and the first update to the language since ES5 was standardized in 2009. Implementation of these features in major JavaScript engines is [underway now](http://kangax.github.io/es5-compat-table/es6/).
+ECMAScript 6, also known as ECMAScript 2015, is the latest version of the ECMAScript standard.  ES6 is a significant update to the language, and the first update to the language since ES5 was standardized in 2009. Implementation of these features in major JavaScript engines is [underway now](http://kangax.github.io/es5-compat-table/es6/).ompat-table/es6/).
 
-ECMAScript 6(标准官方名称是 ECMAScript 2015) 是 ECMAScript 的下一代标准，预计将在 2015年6月 正式发布。ES6 的发布将是这门语言自2009年 ES5 正式发布以来的首次更新，是一次富有意义的更新。主流Javascript引擎中的这些新特性[正在](http://kangax.github.io/es5-compat-table/es6/)开发中。
+ECMAScript 6(标准官方名称是 ECMAScript 2015) 是 ECMAScript 的最新一代标准。ES6 的发布将是这门语言自2009年 ES5 正式发布以来的首次更新，是一次富有意义的更新。主流Javascript引擎中的这些新特性[正在](http://kangax.github.io/es5-compat-table/es6/)开发中。
 
-See the [draft ES6 standard](https://people.mozilla.org/~jorendorff/es6-draft.html) for full specification of the ECMAScript 6 language.
+See the [ES6 standard](http://www.ecma-international.org/ecma-262/6.0/) for full specification of the ECMAScript 6 language.
 
 若希望阅读 ECMAScript 6 语言的完整规范，请参见[ES6标准草案](https://people.mozilla.org/~jorendorff/es6-draft.html)。
 
 ES6 includes the following new features:
+<<<<<<< HEAD
 
 ES6 包含了以下这些新特性：
 
 - [Arrows 箭头函数](#arrows-%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0)
-- [classes 类](#classes-%E7%B1%BB)
-- [enhanced object literals 增强的对象字面量](#enhanced-object-literals-%E5%A2%9E%E5%BC%BA%E7%9A%84object%E5%AD%97%E9%9D%A2%E9%87%8F)
-- [template strings 模板字符串](#template-strings-%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2)
-- [destructuring 解构](#destructuring-%E8%A7%A3%E6%9E%84)
-- [default + rest + spread 默认参数+不定参数+参数展开](#default--rest--spread--%E9%BB%98%E8%AE%A4%E5%8F%82%E6%95%B0%E4%B8%8D%E5%AE%9A%E5%8F%82%E6%95%B0%E5%8F%82%E6%95%B0%E5%B1%95%E5%BC%80)
-- [let + const let + const 操作符](#let--const-%E6%93%8D%E4%BD%9C%E7%AC%A6)
-- [iterators + for..of 迭代器 + for...of](#iterators--forof-%E8%BF%AD%E4%BB%A3%E5%99%A8--forof-%E5%BE%AA%E7%8E%AF)
-- [generators 生成器](#generators-%E7%94%9F%E6%88%90%E5%99%A8)
-- [unicode 统一码](#unicode-%E7%BB%9F%E4%B8%80%E7%A0%81)
-- [modules 模块](#modules-%E6%A8%A1%E5%9D%97)
-- [module loaders 模块加载器](#module-loaders-%E6%A8%A1%E5%9D%97%E5%8A%A0%E8%BD%BD%E5%99%A8)
-- [map + set + weakmap + weakset 数据结构](#map--set--weakmap--weakset-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
-- [proxies 代理](#proxies-%E4%BB%A3%E7%90%86)
-- [symbols 符号](#symbols-%E7%AC%A6%E5%8F%B7)
-- [subclassable built-ins 可子类化内建对象](#subclassable-built-ins-%E5%8F%AF%E5%AD%90%E7%B1%BB%E5%8C%96%E7%9A%84%E5%86%85%E5%BB%BA%E5%AF%B9%E8%B1%A1)
-- [promises 对象](#promises-%E5%AF%B9%E8%B1%A1)
-- [math + number + string + object APIs](#math--number--string--object-apis-%E6%89%A9%E5%B1%95)
-- [binary and octal literals 二进制和八进制字面量](#binary-and-octal-literals-%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%92%8C%E5%85%AB%E8%BF%9B%E5%88%B6%E5%AD%97%E9%9D%A2%E9%87%8F)
-- [reflect api 反射API](#reflect-api-%E5%8F%8D%E5%B0%84api)
-- [tail calls 尾调用](#tail-calls-%E5%B0%BE%E8%B0%83%E7%94%A8)
+- [Classes 类](#classes-%E7%B1%BB)
+- [Enhanced Object Literals 增强的对象字面量](#enhanced-object-literals-%E5%A2%9E%E5%BC%BA%E7%9A%84object%E5%AD%97%E9%9D%A2%E9%87%8F)
+- [Template Strings 模板字符串](#template-strings-%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2)
+- [Destructuring 解构](#destructuring-%E8%A7%A3%E6%9E%84)
+- [Default + Rest + Spread 默认参数+不定参数+参数展开](#default--rest--spread--%E9%BB%98%E8%AE%A4%E5%8F%82%E6%95%B0%E4%B8%8D%E5%AE%9A%E5%8F%82%E6%95%B0%E5%8F%82%E6%95%B0%E5%B1%95%E5%BC%80)
+- [Let + Const 操作符](#let--const-%E6%93%8D%E4%BD%9C%E7%AC%A6)
+- [Iterators 迭代器 + For..Of 循环](#iterators--forof-%E8%BF%AD%E4%BB%A3%E5%99%A8--forof-%E5%BE%AA%E7%8E%AF)
+- [Generators 生成器](#generators-%E7%94%9F%E6%88%90%E5%99%A8)
+- [Unicode 统一码](#unicode-%E7%BB%9F%E4%B8%80%E7%A0%81)
+- [Modules 模块](#modules-%E6%A8%A1%E5%9D%97)
+- [Module Loaders 模块加载器](#module-loaders-%E6%A8%A1%E5%9D%97%E5%8A%A0%E8%BD%BD%E5%99%A8)
+- [Map + Set + Weakmap + Weakset 数据结构](#map--set--weakmap--weakset-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
+- [Proxies 代理](#proxies-%E4%BB%A3%E7%90%86)
+- [Symbols 符号](#symbols-%E7%AC%A6%E5%8F%B7)
+- [Subclassable Built-ins 可子类化内建对象](#subclassable-built-ins-%E5%8F%AF%E5%AD%90%E7%B1%BB%E5%8C%96%E7%9A%84%E5%86%85%E5%BB%BA%E5%AF%B9%E8%B1%A1)
+- [Promises 对象](#promises-%E5%AF%B9%E8%B1%A1)
+- [Math + Number + String + Object APIs](#math--number--string--object-apis-%E6%89%A9%E5%B1%95)
+- [Binary and Octal Literals 二进制和八进制字面量](#binary-and-octal-literals-%E4%BA%8C%E8%BF%9B%E5%88%B6%E5%92%8C%E5%85%AB%E8%BF%9B%E5%88%B6%E5%AD%97%E9%9D%A2%E9%87%8F)
+- [Reflect 反射 API](#reflect-api-%E5%8F%8D%E5%B0%84api)
+- [Tail Calls 尾调用](#tail-calls-%E5%B0%BE%E8%B0%83%E7%94%A8)
 
 ## ECMAScript 6 Features 特性
 
 ### Arrows 箭头函数
-Arrows are a function shorthand using the `=>` syntax. They are syntactically similar to the related feature in C#, Java 8 and CoffeeScript. They support both expression and statement bodies. Unlike functions, arrows share the same lexical this as their surrounding code.
+Arrows are a function shorthand using the `=>` syntax.  They are syntactically similar to the related feature in C#, Java 8 and CoffeeScript.  They support both statement block bodies as well as expression bodies which return the value of the expression.  Unlike functions, arrows share the same lexical `this` as their surrounding code.
 
-箭头函数是使用`=>`语法的函数简写形式。这在语法上与 C#、Java 8 和 CoffeeScript 的相关特性非常相似。它们同时支持表达式体和语句体。与（普通的）函数所不同的是，箭头函数和其上下文中的代码共享同一个具有词法作用域的`this`。
+箭头函数是使用`=>`语法的函数简写形式。这在语法上与 C#、Java 8 和 CoffeeScript 的相关特性非常相似。它们同时支持表达式语句块体和返回表达式的值的表达式体。与（普通的）函数所不同的是，箭头函数和其上下文中的代码共享同一个具有词法作用域的`this`。
 
 ```JavaScript
 // Expression bodies
@@ -536,10 +538,11 @@ var handler =
 }
 ```
 
-### Symbols 符号
-Symbols enable access control for object state.  Symbols allow properties to be keyed by either `string` (as in ES5) or `symbol`.  Symbols are a new primitive type. Optional `name` parameter used in debugging - but is not part of identity.  Symbols are unique (like gensym), but not private since they are exposed via reflection features like `Object.getOwnPropertySymbols`.
 
-符号(Symbol) 能够实现针对对象状态的访问控制，允许使用`string`(与ES5相同)或`symbol`作为键来访问属性。符号是一个新的原语类型，可选的`name`参数可以用于调试——但并不是符号身份的一部分。符号是独一无二的(如同gensym（所产生的符号）)，但不是私有的，因为它们可以通过类似`Object.getOwnPropertySymbols`的反射特性暴露出来。
+### Symbols 符号
+Symbols enable access control for object state.  Symbols allow properties to be keyed by either `string` (as in ES5) or `symbol`.  Symbols are a new primitive type. Optional `description` parameter used in debugging - but is not part of identity.  Symbols are unique (like gensym), but not private since they are exposed via reflection features like `Object.getOwnPropertySymbols`.
+
+符号(Symbol) 能够实现针对对象状态的访问控制，允许使用`string`(与ES5相同)或`symbol`作为键来访问属性。符号是一个新的原语类型，可选的`description`参数可以用于调试——但并不是符号身份的一部分。符号是独一无二的(如同gensym（所产生的符号）)，但不是私有的，因为它们可以通过类似`Object.getOwnPropertySymbols`的反射特性暴露出来。
 
 ```JavaScript
 var MyClass = (function() {
